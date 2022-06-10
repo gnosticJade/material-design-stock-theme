@@ -87,3 +87,9 @@ body textarea {
     }
   }
 }
+
+// Hide disabled emails banner.
+
+##global-notice-alert-emails-disabled{
+  display: none;
+}
