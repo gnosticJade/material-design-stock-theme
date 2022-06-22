@@ -283,3 +283,33 @@
     max-width: 758px;
   }
 }
+
+// Brighten user card banners
+
+.user-card .card-content {
+    background: rgba(var(--secondary-rgb), 0.5);
+}
+
+// Outline text on user banners for readability regardless of background
+#user-card > div > div.card-row.first-row > div.names {
+    text-shadow:
+      -1px -1px 0 #000,
+      0   -1px 0 #000,
+      1px -1px 0 #000,
+      1px  0   0 #000,
+      1px  1px 0 #000,
+      0    1px 0 #000,
+      -1px  1px 0 #000,
+      -1px  0   0 #000;
+}
+#user-card > div > div.card-row.metadata-row {
+    text-shadow:
+      -1px -1px 0 #000,
+      0   -1px 0 #000,
+      1px -1px 0 #000,
+      1px  0   0 #000,
+      1px  1px 0 #000,
+      0    1px 0 #000,
+      -1px  1px 0 #000,
+      -1px  0   0 #000;
+}
